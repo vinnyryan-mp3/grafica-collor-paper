@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Collorpaper Lima - Gráfica</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <div class="logo">Collorpaper Lima</div>
+    <nav>
+      <a href="#servicos">Serviços</a>
+      <a href="#beneficios">Benefícios</a>
+      <a href="#informacoes">Informações</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <h1>Soluções Gráficas Impactantes</h1>
+    <p>Transformamos suas ideias em materiais gráficos de alta qualidade:
+      banners, folders, cartões de visita, placas publicitárias e muito mais!</p>
+    <a href="#contato" class="btn">Peça seu Orçamento</a>
+  </section>
+
+  <!-- SERVIÇOS -->
+  <section id="servicos" class="reveal">
+    <h2>Nossos Serviços</h2>
+    <p>Produção de banners, cavaletes, folders, placas, cartões de visita e outros
+       impressos de qualidade.
+       <br>Também realizamos adesivação e instalação de placas.</p>
+  </section>
+
+    <div class="carousel-container">
+      <button class="prev">&#10094;</button>
+    <!--Sessão com os cards-->
+    <div class="carousel">
+      <div class="card">
+        <div class="tilt">
+          <div class="img"><img src="banner.png" alt="Banner Comercial"></div>
+        </div>
+        <div class="info">
+          <h2 class="title">Banners</h2>
+          <p class="desc">Solução de grande impacto visual para divulgar ofertas e eventos. Fabricado com materiais resistentes, ideal para uso interno ou externo.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="tilt">
+          <div class="img"><img src="cavaletes.png" alt="Cavalete comercial"></div>
+        </div>
+        <div class="info">
+          <h2 class="title">Cavaletes</h2>
+          <p class="desc">Publicidade portátil e dupla face, perfeita para atrair clientes na calçada ou em feiras. Estrutura robusta e fácil de montar e guardar.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="tilt">
+          <div class="img"><img src="folder.png" alt="folder"></div>
+        </div>
+        <div class="info">
+          <h2 class="title">Folders</h2>
+          <p class="desc">Material informativo e promocional essencial para apresentar serviços, menus ou produtos com detalhes. Diversos tipos de dobras para organizar suas informações de forma atrativa.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="tilt">
+          <div class="img"><img src="placa.webp" alt="placas"></div>
+        </div>
+        <div class="info">
+          <h2 class="title">Placas</h2>
+          <p class="desc">Opções duráveis para sinalização, identificação e comunicação visual em fachadas ou interiores. Personalize o tamanho e material para máximo destaque e resistência.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="tilt">
+          <div class="img"><img src="cartões.png" alt="cartão de visita"></div>
+        </div>
+        <div class="info">
+          <h2 class="title">Cartões de Visita</h2>
+          <p class="desc">O primeiro contato profissional, indispensável para networking e credibilidade. Acabamentos premium que garantem uma impressão marcante e de alta qualidade.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="tilt">
+          <div class="img"><img src="outros-serviços.png" alt="outros"></div>
+        </div>
+        <div class="info">
+          <h2 class="title">Impressos de Qualidade</h2>
+          <p class="desc">Produzimos uma ampla gama de materiais personalizados, como flyers, calendários e adesivos, sempre com a máxima fidelidade de cores e acabamento.</p>
+        </div>
+      </div>
+    </div>
+  <button class="next">&#10095;</button>
+  </div>
+    <!--fim da Sessão com os cards-->
+  
+  
+  <div class="indicators"></div>
+  </div>
+
+  <!-- BENEFÍCIOS -->
+  <section id="beneficios" class="reveal">
+    <h2>Benefícios</h2>
+    <div class="benefits-grid">
+      <div class="benefit-card">
+        <span class="icon">🎨</span>
+        <h3>Criatividade</h3>
+        <p>Designs exclusivos e personalizados para destacar sua marca.</p>
+      </div>
+
+    <div class="benefit-card">
+      <span class="icon">⚡</span>
+      <h3>Qualidade</h3>
+      <p>Impressão em alta definição com cores vivas e durabilidade.</p>
+    </div>
+
+    <div class="benefit-card">
+      <span class="icon">📦</span>
+      <h3>Serviço Completo</h3>
+      <p>Do design à instalação, cuidamos de todo o processo para você.</p>
+    </div>
+
+    <div class="benefit-card">
+      <span class="icon">🤝</span>
+      <h3>Atendimento</h3>
+      <p>Equipe dedicada com suporte rápido e atencioso.</p>
+    </div>
+  </div>
+
+  <a href="#contato" class="btn">Quero aproveitar esses benefícios</a>
+</section>
+  <!-- FIM DOS BENEFICIOS -->
+
+  <!-- INFORMAÇÕES -->
+  <section id="informacoes" class="reveal">
+    <h2>Por que escolher a Collorpaper Lima?</h2>
+    <p>Unimos tecnologia, criatividade e atendimento de excelência para entregar
+       peças gráficas que transformam suas ideias em resultados impactantes.</p>
+  </section>
+
+  <!-- CONTATO -->
+  <section id="contato" class="reveal">
+    <h2>Fale Conosco</h2>
+    <form id="form-contato">
+      <input type="text" id="nome" placeholder="Seu Nome" required>
+      <input type="email" id="email" placeholder="Seu Email" required>
+      <textarea id="mensagem" placeholder="Sua Mensagem" required></textarea>
+      <button type="submit" class="btn">Enviar via WhatsApp</button>
+    </form>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2025 Collorpaper Lima - Todos os direitos reservados</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
